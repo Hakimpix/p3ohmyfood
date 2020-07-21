@@ -159,8 +159,8 @@ font-size: 50px;
 a
 {
     text-decoration: none;  
-    width: 250px;
-    height: 300px;
+    width: 350px;
+    height: 450px;
     padding: 0px;
     margin: 30px;
     
@@ -181,8 +181,8 @@ background-position: center;
 
 .box1 
 {
-    width: 250px;
-    height: 300px;
+    width: 350px;
+    height: 450px;
     padding: 0;
     margin: 0;
     
@@ -462,4 +462,67 @@ flex-direction: column;
     }
     
 
+}
+
+@media all and (min-width: 770px)
+
+{
+
+.menu_1
+
+{
+    
+}
+.boite1
+{
+    width: 400px;
+    height: 500px;  
+}
+
+.boite2
+{
+    width: 400px;
+    height: 500px; 
+} 
+
+.boite3
+{
+    width: 400px;
+    height: 500px;  
+ 
+}
+.boite4
+{
+    width: 400px;
+    height: 500px; 
+}
+}
+
+@media all and (min-width: 900px)
+
+{
+
+.boite1
+{
+    width: 400px;
+    height: 500px;  
+}
+
+.boite2
+{
+    width: 400px;
+    height: 500px; 
+} 
+
+.boite3
+{
+    width: 400px;
+    height: 500px;  
+ 
+}
+.boite4
+{
+    width: 400px;
+    height: 500px; 
+}
 }
