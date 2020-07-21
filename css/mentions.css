@@ -1,0 +1,17 @@
+
+
+.mentions
+
+{
+display: flex;
+justify-content: center;
+
+padding: 10px 50px 10px 50px;
+}
+
+h1
+{
+Font-size: 15px;
+
+text-align: center;
+}

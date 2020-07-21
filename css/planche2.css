@@ -1,0 +1,269 @@
+
+
+@font-face {
+    font-family: 'danielbold';
+    src: url('fonts/daniel-bold/Daniel-Bold-webfont.eot');
+    src: url('daniel_bold_macroman/Daniel-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('daniel_bold_macroman/Daniel-Bold-webfont.woff2') format('woff2'),
+         url('daniel_bold_macroman/Daniel-Bold-webfont.woff') format('woff'),
+         url('daniel_bold_macroman/Daniel-Bold-webfont.ttf') format('truetype'),
+         url('daniel_bold_macroman/Daniel-Bold-webfont.svg#danielbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'black_jackregular';
+    src: url('blackjack_regular_macroman/blackjack-webfont.eot');
+    src: url('blackjack_regular_macroman/blackjack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('blackjack_regular_macroman/blackjack-webfont.woff2') format('woff2'),
+         url('blackjack_regular_macroman/blackjack-webfont.woff') format('woff'),
+         url('blackjack_regular_macroman/blackjack-webfont.ttf') format('truetype'),
+         url('blackjack_regular_macroman/blackjack-webfont.svg#black_jackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+
+}
+.container
+{
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+    border: 1px solid black;
+    
+}
+
+header
+{
+background-color: #579c87;
+width: 100%;
+height: 130px;
+align-items: center;
+display: flex;
+justify-content: center;
+border: 1px solid black;
+}
+
+h1
+
+{
+
+color: #fdcb46;
+text-align: center;
+align-items: center;
+font-size: 50px;
+}
+
+.main
+{
+    padding: 50px 50px 50px 50px;
+    align-items: center;
+    font-family: 'black_jackregular';
+}
+
+
+.titre2
+
+{
+    font-family: 'black_jackregular';
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-bottom: 30px;
+}
+
+.menu
+
+{  
+    width: 80%;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 60px 30px 60px;
+    background-color: #fcdfdb;
+    box-shadow: 1px 1px 15px grey;
+    margin: 10px 10px 10px 10px;
+}   
+
+
+ .icone
+ {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+ }
+ .fa-music
+{
+    font-size: 75px;
+    color: #f15861; 
+}
+
+.sous-titre
+{
+    font-family: "danielbold";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3d1319;
+}
+ 
+
+
+.menu-sous-titre
+{
+  font-family: 'black_jackregular';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-sous-titre > h2 {
+    Width: 250px;
+    text-align: center;
+    border: 1px solid red;
+    
+  
+}
+
+.traitlateral
+{
+ height: 3px;
+ background-color:#3d1319;
+ flex: 1;
+ justify-content: center;
+}
+
+
+
+
+
+.box1
+{
+width: 100%;
+flex-direction: column;
+justify-content: space-around;
+line-height: 2em;
+
+border: 1px solid blue;
+
+}
+.ligne
+{
+    display: flex;
+    justify-content: space-between;
+    line-height: 2em;
+}
+.texte
+{
+
+}
+.price
+{
+    
+  
+     
+}
+
+.icone2
+{
+display:flex;
+justify-content: center;
+margin-top: 40px;
+}
+
+.note-bottom
+{
+    font-size: 35px;
+    
+}
+.sous-titre2
+{
+font-family: "danielbold";
+font-size: 20px;    
+padding-left: 10px;
+}
+
+footer
+{
+    background-color: #579c87;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+
+.mention
+
+{
+margin-left: 20px;
+font-size: 25px;  
+color:  #fdcb46;
+}
+
+.contact
+{
+margin-right: 20px;
+
+font-size: 25px;  
+color: #fdcb46;
+
+}
+
+
+@media all and (max-width: 770px)
+
+{
+
+#container
+
+{
+width: 100%;
+flex-direction: column;
+  
+}
+
+
+
+
+
+#main
+{
+
+  width: 100%;
+  flex-direction: column;
+  padding-left: 0px;
+  
+}
+
+h1
+{
+  width: 100%;
+  flex-direction: column;
+  margin-right: 55px;
+}
+
+
+
+#footer
+
+{
+  width: 100%;
+  flex-direction: column;
+}
+
+
+
+}

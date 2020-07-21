@@ -1,0 +1,408 @@
+
+@font-face {
+    font-family: 'romanescoregular';
+    src: url('romanesco_regular_macroman/Romanesco-Regular-webfont.eot');
+    src: url('romanesco_regular_macroman/Romanesco-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('romanesco_regular_macroman/Romanesco-Regular-webfont.woff2') format('woff2'),
+         url('romanesco_regular_macroman/Romanesco-Regular-webfont.woff') format('woff'),
+         url('romanesco_regular_macroman/Romanesco-Regular-webfont.ttf') format('truetype'),
+         url('romanesco_regular_macroman/Romanesco-Regular-webfont.svg#romanescoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'action_manregular';
+    src: url('actionman_regular_macroman/Action_Man-webfont.eot');
+    src: url('actionman_regular_macroman/Action_Man-webfont.eot?#iefix') format('embedded-opentype'),
+         url('actionman_regular_macroman/Action_Man-webfont.woff2') format('woff2'),
+         url('actionman_regular_macroman/Action_Man-webfont.woff') format('woff'),
+         url('actionman_regular_macroman/Action_Man-webfont.ttf') format('truetype'),
+         url('actionman_regular_macroman/Action_Man-webfont.svg#action_manregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+    background-color:#ec9387;
+
+}
+.container
+{
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+    
+    
+}
+
+header
+{
+background-color: #579c87;
+width: 100%;
+height: 100px;
+position: absolute;
+align-items: center;
+display: flex;
+justify-content: center;
+
+top: 0;
+ }
+
+h1
+
+{
+text-align: center;
+ align-items: center;
+ font-size: 30px;
+background: -webkit-linear-gradient(#db8528, #8f5bfe);
+background: linear-gradient(to left, #db8528, #333 50%, #8f5bfe 75%);
+-webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+.title 
+{
+    color: #fdcb46;
+    text-align: center;  
+    font-size: 50px;
+    font-style: bold;
+}
+
+h2
+{
+    font-size: 20px;
+    font-family: 'action_manregular';
+}
+
+.titre2
+
+{
+    font-family: 'action_manregular';
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+.menu
+
+{  
+width: 100%;
+padding-top: 100px;
+margin-bottom: 100px;
+flex-direction: column;
+background-color: #fcdfdb;
+
+height: unset;
+
+}   
+
+.icone
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.fa-music
+{
+    font-size: 75px;
+    display: flex;
+    align-items: center;
+
+    color: #f15861; 
+}
+
+.sous-titre
+{
+    font-family: 'romanescoregular';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #3d1319;
+}
+ 
+.texte
+{
+    font-family: 'action_manregular';
+}
+
+.price
+{
+    font-family: 'action_manregular';
+    font-size: 25px;
+}
+
+.menu-sous-titre1
+{
+    font-family: 'action_manregular';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 10px 2px 10px;
+}
+.menu-sous-titre2
+{
+  font-family: 'action_manregular';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 10px 2px 10px;
+}
+.menu-sous-titre3
+{
+  font-family: 'action_manregular';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 10px 2px 10px;
+}
+.menu-sous-titre h2:after, .menu-sous-titre h2:visited:after {
+    content: '';
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    background:black;
+    transition: 0.5s;
+  }
+  
+  .menu-sous-titre h2:hover:after, .menu-sous-titre h2:hover:visited:after {
+    width: 100%;
+  }
+
+.menu-sous-titre1 > h2 {
+    Width: 220px;
+    text-align: center;
+    position: relative;  
+    color: #3d1319;
+}
+.menu-sous-titre2 > h2
+ {
+    Width: 220px;
+    text-align: center;
+    position: relative;
+    color: #3d1319;
+}
+.menu-sous-titre3 > h2 {
+    Width: 220px;
+    text-align: center;
+    position: relative;
+    color: #3d1319;
+    
+}
+h1 {
+    color: linear-gradient(
+      to right,
+      hsl(211, 100%, 50%),
+      hsl(179, 100%, 30%)
+    );
+    transition: background-image 0.5s linear;
+  }
+  
+  h1:hover {
+    color: linear-gradient(
+      to bottom,
+      hsl(344, 100%, 50%),
+      hsl(31, 100%, 40%)
+    );
+  }
+
+.traitlateral1
+{
+ height: 3px;
+ background-color:#3d1319;
+ flex: 1;
+ justify-content: center;
+ background-color: #3d1319;
+}
+
+
+.traitlateral2
+{
+ height: 3px;
+ background-color:#3d1319;
+ flex: 1;
+ justify-content: center;
+ background-color: #3d1319;
+}
+
+.traitlateral3
+{
+ height: 3px;
+ background-color:#3d1319;
+ flex: 1;
+ justify-content: center;
+ background-color:#3d1319;
+}
+.box1
+{
+width: 100%;
+flex-direction: column;
+justify-content: space-around;
+line-height: 2em;
+color: #3d1319;
+
+}
+.box2
+{
+width: 100%;
+flex-direction: column;
+justify-content: space-around;
+color: #3d1319;;
+
+}
+.box3
+{
+width: 100%;
+flex-direction: column;
+justify-content: space-around;
+line-height: 2em;
+color: #3d1319;
+}
+.ligne
+{
+    display: flex;
+    justify-content: space-between;
+    line-height: 2em;
+    padding: 2px 30px 2px 30px;
+    
+}
+
+
+.icone2
+{
+display:flex;
+justify-content: center;
+margin-top: 20px;
+padding-bottom: 50px;
+}
+
+.note-bottom
+{
+    font-size: 35px;
+}
+.sous-titre2
+{
+
+font-size: 40px;    
+padding-left: 10px;
+font-family: 'romanescoregular';
+
+}
+
+
+footer
+{
+    background-color: #579c87;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+}
+
+.mention a {
+    color: #fdcb46;
+    text-decoration: none;
+}
+
+.contact a {
+    color: #fdcb46;
+    text-decoration: none;
+}
+
+.mention
+
+{
+font-size: 15px;  
+color:  #fdcb46;
+padding-left: 30px;
+}
+
+.contact
+{
+font-size: 15px;  
+color: #fdcb46;
+padding-right: 30px;
+-webkit-animation:shake 1s ease-in-out .1s 
+infinite alternate
+animation: shake 1s ease-in-out .1s 
+infinite alternate
+}
+
+
+.contact :hover {
+    -webkit-animation:shake .1s ease-in-out .1s 
+    infinite alternate;
+}
+.mention
+:hover {
+    -webkit-animation:shake .1s ease-in-out .1s 
+    infinite alternate;
+}
+@-we
+
+@-webkit-keyframes shake{
+
+    from {
+
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
+to {-webkit-tranform: rotate(-2deg);
+    transform: rotate(-2deg);
+    -webkit-transform-origin: center center;
+    -webkit-transform-origin: center center;
+
+}
+
+}
+
+@keyframes shake{
+
+    from {
+
+    -webkit-transform: rotate(7deg);
+}
+to {-webkit-tranform: rotate(-7deg);
+    -webkit-transform-origin: center center;
+
+}
+
+}
+
+
+@media all and (max-width: 770px)
+
+{
+
+.container
+
+{
+width: 100%;
+flex-direction: column;
+margin-bottom: 100px;
+position: absolute; 
+}
+
+.ligne{
+    flex-direction: column;
+}
+
+
+}

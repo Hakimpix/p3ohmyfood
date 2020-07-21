@@ -1,0 +1,465 @@
+
+
+@font-face {
+    font-family: 'danielbold';
+    src: url('fonts/daniel-bold/Daniel-Bold-webfont.eot');
+    src: url('daniel_bold_macroman/Daniel-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('daniel_bold_macroman/Daniel-Bold-webfont.woff2') format('woff2'),
+         url('daniel_bold_macroman/Daniel-Bold-webfont.woff') format('woff'),
+         url('daniel_bold_macroman/Daniel-Bold-webfont.ttf') format('truetype'),
+         url('daniel_bold_macroman/Daniel-Bold-webfont.svg#danielbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'black_jackregular';
+    src: url('blackjack_regular_macroman/blackjack-webfont.eot');
+    src: url('blackjack_regular_macroman/blackjack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('blackjack_regular_macroman/blackjack-webfont.woff2') format('woff2'),
+         url('blackjack_regular_macroman/blackjack-webfont.woff') format('woff'),
+         url('blackjack_regular_macroman/blackjack-webfont.ttf') format('truetype'),
+         url('blackjack_regular_macroman/blackjack-webfont.svg#black_jackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'otama.epregular';
+    src: url('Otama-ep-webfont.eot');
+    src: url('Otama-ep-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Otama-ep-webfont.woff2') format('woff2'),
+         url('Otama-ep-webfont.woff') format('woff'),
+         url('Otama-ep-webfont.ttf') format('truetype'),
+         url('Otama-ep-webfont.svg#otama.epregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'windsongregular';
+    src: url('windsong_regular_macroman/Windsong-webfont.eot');
+    src: url('windsong_regular_macroman/Windsong-webfont.eot?#iefix') format('embedded-opentype'),
+         url('windsong_regular_macroman/Windsong-webfont.woff2') format('woff2'),
+         url('windsong_regular_macroman/Windsong-webfont.woff') format('woff'),
+         url('windsong_regular_macroman/Windsong-webfont.ttf') format('truetype'),
+         url('windsong_regular_macroman/Windsong-webfont.svg#windsongregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'romanescoregular';
+    src: url('romanesco_regular_macroman/Romanesco-Regular-webfont.eot');
+    src: url('romanesco_regular_macroman/Romanesco-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('romanesco_regular_macroman/Romanesco-Regular-webfont.woff2') format('woff2'),
+         url('romanesco_regular_macroman/Romanesco-Regular-webfont.woff') format('woff'),
+         url('romanesco_regular_macroman/Romanesco-Regular-webfont.ttf') format('truetype'),
+         url('romanesco_regular_macroman/Romanesco-Regular-webfont.svg#romanescoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'action_manregular';
+    src: url('actionman_regular_macroman/Action_Man-webfont.eot');
+    src: url('actionman_regular_macroman/Action_Man-webfont.eot?#iefix') format('embedded-opentype'),
+         url('actionman_regular_macroman/Action_Man-webfont.woff2') format('woff2'),
+         url('actionman_regular_macroman/Action_Man-webfont.woff') format('woff'),
+         url('actionman_regular_macroman/Action_Man-webfont.ttf') format('truetype'),
+         url('actionman_regular_macroman/Action_Man-webfont.svg#action_manregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+      
+}
+
+.container
+{
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+header
+
+{
+background-color: #579c87;
+width: 100%;
+height: 120px;
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+
+
+h1
+
+{
+
+color: #fdcb46;
+text-align: center;
+font-size: 50px;
+
+
+}
+
+.main
+{   
+    width: 100%;
+}   
+
+.ligne1
+
+{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.ligne2
+
+{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+}
+
+.ligne3
+
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+a
+{
+    text-decoration: none;  
+    width: 250px;
+    height: 300px;
+    padding: 0px;
+    margin: 30px;
+    
+    text-align: center;
+    background-size: 150%;
+    background-position: center;
+    background-size: 100%;
+    transition: 1s;
+    cursor: zoom-in;
+}
+
+
+a:hover
+{
+background-size: 100%;
+background-position: center;
+}
+
+.box1 
+{
+    width: 250px;
+    height: 300px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.boite1
+{
+    background-color: #fcdfdb;
+    box-shadow: 1px 1px 15px  grey;
+}
+.boite2 {
+    background-color: #fff5fe;  
+    color: gradient(to right, #ce7d4e(56,56,56),#905bfd(0,0,0, .55)); 
+    box-shadow: 1px 1px 15px  grey;
+}
+.boite3 {
+    background-color: #edefef;
+    box-shadow: 1px 1px 15px  grey;
+}
+
+.boite4
+
+{
+    box-shadow: 1px 1px 15px  grey;
+}
+.box1  
+ {
+    
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    margin-top: 100px;
+    
+}
+.box1:hover {
+	-webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    opacity: 0.7;
+    
+}
+
+.box2  {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    height: 200px;
+    margin-top: 100px;
+    
+}
+.box2:hover {
+	-webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+
+.box3
+{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    margin-top: 100px;
+    
+}
+.box3:hover {
+	-webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+
+.box4  {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    margin-top: 100px;
+    
+}
+.box4:hover {
+	-webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+
+.menu1 
+{
+    font-family: 'action_manregular';
+}
+.menu2
+{
+    font-family: "otama.epregular";    
+background: -webkit-linear-gradient(#db8528, #8f5bfe);
+background: linear-gradient(to left, #db8528, #333 50%, #8f5bfe 75%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.menu_2 p
+{
+    font-family: "otama.epregular";    
+    background: -webkit-linear-gradient(#db8528, #8f5bfe);
+    background: linear-gradient(to left, #db8528, #333 50%, #8f5bfe 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.menu3 
+{
+    font-family: 'action_manregular';
+}
+.menu4 
+{
+    font-family: 'action_manregular';
+}
+
+.prochainement 
+{
+font-size: 40px;
+display: flex;
+align-items: center;
+background-color: #579c87;
+border-radius: 10px / 10px;
+margin-bottom: 120px;
+color: #fdcb46;
+padding: 5px 30px 5px 30px;
+width: 250px;
+height: 50px;
+}
+
+.prochainement h3:hover:after {
+        overflow: hidden;
+        display: inline-block;
+        vertical-align: bottom;
+        -webkit-animation: ellipsis steps(4,end) 900ms infinite;      
+        animation: ellipsis steps(4,end) 900ms infinite;
+        content: "\2026"; /* ascii code for the ellipsis character */
+        width: 0px;
+        
+}
+
+@keyframes ellipsis {
+    to {
+      width: 1.25em;    
+    }
+  }
+@-webkit-keyframes ellipsis {
+    to {
+      width: 1.25em;    
+    }
+}
+.fa-music
+{
+    font-size: 35px;
+    margin-bottom: -25px;
+    color: #f15861; 
+}
+
+footer
+{
+    background-color: #579c87;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+}
+
+.mention a {
+    color: #fdcb46;
+    text-decoration: none;
+}
+
+.contact a {
+    color: #fdcb46;
+    text-decoration: none;
+    
+}
+
+.mention
+
+{
+font-size: 15px;  
+color:  #fdcb46;
+padding-left: 30px;
+}
+
+.contact
+{
+font-size: 15px;  
+color: #fdcb46;
+padding-right: 30px;
+-webkit-animation:shake 1s ease-in-out .1s 
+infinite alternate
+animation: shake 1s ease-in-out .1s 
+infinite alternate
+}
+
+
+.contact :hover {
+    -webkit-animation:shake .1s ease-in-out .1s 
+    infinite alternate;
+}
+.mention
+:hover {
+    -webkit-animation:shake .1s ease-in-out .1s 
+    infinite alternate;
+}
+
+.prochainement h3
+{
+font-size: 20px;    
+color: #fdcb46;
+border-radius: 10px / 10px;
+padding: 10px 50px 10px 50px; 
+}
+
+
+
+
+@-webkit-keyframes shake{
+
+    from {
+
+    -webkit-transform: rotate(2deg);
+    transform: rotate(2deg);
+}
+to {-webkit-tranform: rotate(-2deg);
+    transform: rotate(-2deg);
+    -webkit-transform-origin: center center;
+    -webkit-transform-origin: center center;
+
+}
+
+}
+
+@keyframes shake{
+
+    from {
+
+    -webkit-transform: rotate(4deg);
+}
+to {-webkit-tranform: rotate(-4deg);
+    -webkit-transform-origin: center center;
+
+}
+
+}
+
+
+@media all and (max-width: 770px)
+
+{
+
+.container
+
+{
+width: 100%;
+flex-direction: column;
+
+  
+}
+.ligne1
+{
+    width: 100%;
+    flex-direction: column;
+    
+      
+    }
+    .ligne2
+    {
+        width: 100%;
+        flex-direction: column;
+        
+          
+    }
+    
+
+}

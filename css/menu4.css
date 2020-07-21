@@ -1,0 +1,316 @@
+
+
+
+
+@font-face {
+    font-family: 'danielbold';
+    src: url('fonts/daniel-bold/Daniel-Bold-webfont.eot');
+    src: url('daniel_bold_macroman/Daniel-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('daniel_bold_macroman/Daniel-Bold-webfont.woff2') format('woff2'),
+         url('daniel_bold_macroman/Daniel-Bold-webfont.woff') format('woff'),
+         url('daniel_bold_macroman/Daniel-Bold-webfont.ttf') format('truetype'),
+         url('daniel_bold_macroman/Daniel-Bold-webfont.svg#danielbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'black_jackregular';
+    src: url('blackjack_regular_macroman/blackjack-webfont.eot');
+    src: url('blackjack_regular_macroman/blackjack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('blackjack_regular_macroman/blackjack-webfont.woff2') format('woff2'),
+         url('blackjack_regular_macroman/blackjack-webfont.woff') format('woff'),
+         url('blackjack_regular_macroman/blackjack-webfont.ttf') format('truetype'),
+         url('blackjack_regular_macroman/blackjack-webfont.svg#black_jackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    
+
+}
+
+@font-face {
+    font-family: 'windsongregular';
+    src: url('windsong_regular_macroman/Windsong-webfont.eot');
+    src: url('windsong_regular_macroman/Windsong-webfont.eot?#iefix') format('embedded-opentype'),
+         url('windsong_regular_macroman/Windsong-webfont.woff2') format('woff2'),
+         url('windsong_regular_macroman/Windsong-webfont.woff') format('woff'),
+         url('windsong_regular_macroman/Windsong-webfont.ttf') format('truetype'),
+         url('windsong_regular_macroman/Windsong-webfont.svg#windsongregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'romanescoregular';
+    src: url('romanesco_regular_macroman/Romanesco-Regular-webfont.eot');
+    src: url('romanesco_regular_macroman/Romanesco-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('romanesco_regular_macroman/Romanesco-Regular-webfont.woff2') format('woff2'),
+         url('romanesco_regular_macroman/Romanesco-Regular-webfont.woff') format('woff'),
+         url('romanesco_regular_macroman/Romanesco-Regular-webfont.ttf') format('truetype'),
+         url('romanesco_regular_macroman/Romanesco-Regular-webfont.svg#romanescoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'action_manregular';
+    src: url('actionman_regular_macroman/Action_Man-webfont.eot');
+    src: url('actionman_regular_macroman/Action_Man-webfont.eot?#iefix') format('embedded-opentype'),
+         url('actionman_regular_macroman/Action_Man-webfont.woff2') format('woff2'),
+         url('actionman_regular_macroman/Action_Man-webfont.woff') format('woff'),
+         url('actionman_regular_macroman/Action_Man-webfont.ttf') format('truetype'),
+         url('actionman_regular_macroman/Action_Man-webfont.svg#action_manregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body
+{
+    margin: 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+header
+{
+background-color: #579c87;
+width: 100%;
+height: 100px;
+position: absolute;
+align-items: center;
+display: flex;
+justify-content: center;
+top: 0;
+ }
+
+
+
+.title 
+{
+    color: #fdcb46;
+    text-align: center;  
+    font-size: 50px;
+    font-style: bold;
+}
+
+.titre2
+
+{
+    font-family: 'black_jackregular';
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-bottom: 30px;
+}
+
+.menu
+
+{  
+    width: 100%;
+    padding-top: 100px;
+    margin-bottom: 100px;
+    flex-direction: column;
+    height: unset;
+    
+   
+}   
+
+
+
+.sous-titre
+{
+    font-family: 'black_jackregular';
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #97de6a;
+}
+ 
+
+
+.menu-sous-titre
+{
+  font-family: 'black_jackregular';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-sous-titre > h2 {
+    Width: 250px;
+    text-align: center;
+    color: black;
+    
+  
+}
+
+.traitlateral
+{
+ height: 3px;
+ background-color:#97de6a;
+ flex: 1;
+ justify-content: center;
+ 
+}
+
+
+
+
+.box
+{
+width: 80%;
+flex-direction: column;
+padding: 5px 40px 5px 40px;
+line-height: 2em;
+
+}
+
+.ligne
+{
+    display: flex;
+    justify-content: space-between;
+    line-height: 2em;
+    width: 100%;
+    
+    
+}
+
+.texte
+{
+    font-family: 'action_manregular';
+}
+.price 
+{
+    font-family: 'black_jackregular';  
+    font-size: 20px; 
+}
+.icone2
+{
+display:flex;
+justify-content: center;
+margin-top: 40px;
+}
+
+.note-bottom
+{
+    font-size: 35px;
+    
+}
+.sous-titre2
+{
+font-family: "danielbold";
+font-size: 20px;    
+padding-left: 10px;
+}
+
+footer
+{
+    background-color: #579c87;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+
+.mention a {
+    color: #fdcb46;
+    text-decoration: none;
+}
+
+.contact a {
+    color: #fdcb46;
+    text-decoration: none;
+}
+
+.mention
+
+{
+font-size: 15px;  
+color:  #fdcb46;
+padding-left: 30px;
+text-decoration: none;
+}
+
+.contact
+{
+font-size: 15px;  
+padding-right: 30px;
+color: #fdcb46;
+-webkit-animation:shake 1s ease-in-out .1s 
+infinite alternate
+animation: shake 1s ease-in-out .1s 
+infinite alternate
+}
+
+
+.contact :hover {
+    -webkit-animation:shake .1s ease-in-out .1s 
+    infinite alternate;
+}
+.mention
+:hover {
+    -webkit-animation:shake .1s ease-in-out .1s 
+    infinite alternate;
+}
+
+
+
+@-webkit-keyframes shake{
+
+    from {
+
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
+to {-webkit-tranform: rotate(-2deg);
+    transform: rotate(-2deg);
+    -webkit-transform-origin: center center;
+    -webkit-transform-origin: center center;
+
+}
+
+}
+
+@keyframes shake{
+
+    from {
+
+    -webkit-transform: rotate(7deg);
+}
+to {-webkit-tranform: rotate(-7deg);
+    -webkit-transform-origin: center center;
+
+}
+
+}
+
+
+@media all and (max-width: 770px)
+
+{
+
+body
+
+{
+width: 100%;
+flex-direction: column;
+margin-bottom: 100px;
+position: absolute; 
+}
+
+.ligne{
+    flex-direction: column;
+}
+
+
+}

@@ -1,0 +1,384 @@
+@font-face {
+    font-family: 'danielbold';
+    src: url('fonts/daniel-bold/Daniel-Bold-webfont.eot');
+    src: url('daniel_bold_macroman/Daniel-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('daniel_bold_macroman/Daniel-Bold-webfont.woff2') format('woff2'),
+         url('daniel_bold_macroman/Daniel-Bold-webfont.woff') format('woff'),
+         url('daniel_bold_macroman/Daniel-Bold-webfont.ttf') format('truetype'),
+         url('daniel_bold_macroman/Daniel-Bold-webfont.svg#danielbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'black_jackregular';
+    src: url('blackjack_regular_macroman/blackjack-webfont.eot');
+    src: url('blackjack_regular_macroman/blackjack-webfont.eot?#iefix') format('embedded-opentype'),
+         url('blackjack_regular_macroman/blackjack-webfont.woff2') format('woff2'),
+         url('blackjack_regular_macroman/blackjack-webfont.woff') format('woff'),
+         url('blackjack_regular_macroman/blackjack-webfont.ttf') format('truetype'),
+         url('blackjack_regular_macroman/blackjack-webfont.svg#black_jackregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'otama.epregular';
+    src: url('Otama-ep-webfont.eot');
+    src: url('Otama-ep-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Otama-ep-webfont.woff2') format('woff2'),
+         url('Otama-ep-webfont.woff') format('woff'),
+         url('Otama-ep-webfont.ttf') format('truetype'),
+         url('Otama-ep-webfont.svg#otama.epregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+    
+margin: 0;
+width: 100%;
+overflow-x: hidden;
+background-color: #fcdfdb;
+}
+
+    
+
+
+header
+{
+background-color: #579c87;
+width: 100%;
+height: 100px;
+position: absolute;
+align-items: center;
+display: flex;
+justify-content: center;
+top: 0;
+
+}
+
+.title 
+{
+    color: #fdcb46;
+    text-align: center;  
+    font-size: 50px;
+    font-style: bold;
+}
+
+h1
+
+{
+
+
+text-align: center;
+align-items: center;
+font-size: 30px;
+background: -webkit-linear-gradient(#db8528, #8f5bfe);
+background: linear-gradient(to left, #db8528, #333 50%, #8f5bfe 75%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+h2
+{
+    font-size: 20px;
+}
+
+.titre2
+
+{
+    font-family: 'black_jackregular';
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+}
+
+.menu
+
+{  
+width: 100%;
+padding-top: 100px;
+margin-bottom: 100px;
+flex-direction: column;
+background-color:#fff5fe;
+height: unset;
+
+}   
+
+
+
+.sous-titre
+{
+    font-family: "otama.epregular";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #3d1319;
+}
+ 
+
+
+.menu-sous-titre1
+{
+  font-family: 'otama.epregular';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 10px 2px 10px;
+}
+.menu-sous-titre2
+{
+  font-family: 'otama.epregular';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 10px 2px 10px;
+}
+.menu-sous-titre3
+{
+  font-family: 'otama.epregular';
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 10px 2px 10px;
+}
+.menu-sous-titre h2:after, .menu-sous-titre h2:visited:after {
+    content: '';
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    background:black;
+    transition: 0.5s;
+  }
+  
+  .menu-sous-titre h2:hover:after, .menu-sous-titre h2:hover:visited:after {
+    width: 100%;
+  }
+
+.menu-sous-titre1 > h2 {
+    Width: 220px;
+    text-align: center;
+    position: relative;  
+    color: #c67412;
+}
+
+.menu-sous-titre2 > h2
+ {
+    Width: 220px;
+    text-align: center;
+    position: relative;
+    color: #a56799;
+}
+.menu-sous-titre3 > h2 {
+    Width: 220px;
+    text-align: center;
+    position: relative;
+    color: #6e4ccc;
+    
+}
+h1 {
+    color: linear-gradient(
+      to right,
+      hsl(211, 100%, 50%),
+      hsl(179, 100%, 30%)
+    );
+    transition: background-image 0.5s linear;
+  }
+  
+  h1:hover {
+    color: linear-gradient(
+      to bottom,
+      hsl(344, 100%, 50%),
+      hsl(31, 100%, 40%)
+    );
+  }
+
+.traitlateral1
+{
+ height: 3px;
+ background-color:#3d1319;
+ flex: 1;
+ justify-content: center;
+ background-color: #c67412;
+}
+
+
+.traitlateral2
+{
+ height: 3px;
+ background-color:#3d1319;
+ flex: 1;
+ justify-content: center;
+ background-color: #a56799;
+}
+
+.traitlateral3
+{
+ height: 3px;
+ background-color:#3d1319;
+ flex: 1;
+ justify-content: center;
+ background-color:#6e4ccc;
+}
+.box1
+{
+width: 100%;
+flex-direction: column;
+justify-content: space-around;
+line-height: 2em;
+color: #c67412;
+}
+.box2
+{
+width: 100%;
+flex-direction: column;
+justify-content: space-around;
+color: #a56799;
+
+}
+.box3
+{
+width: 100%;
+flex-direction: column;
+justify-content: space-around;
+line-height: 2em;
+color: #6e4ccc;
+}
+.ligne
+{
+    display: flex;
+    justify-content: space-between;
+    line-height: 2em;
+    padding: 2px 50px 2px 50px;
+}
+
+
+.icone2
+{
+display:flex;
+justify-content: center;
+margin-top: 40px;
+}
+
+.note-bottom
+{
+    font-size: 35px;
+}
+.sous-titre2
+{
+font-family: "danielbold";
+font-size: 20px;    
+padding-left: 5px;
+}
+
+
+footer
+{
+    background-color: #579c87;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    bottom: 0;
+}
+
+.mention a {
+    color: #fdcb46;
+    text-decoration: none;
+}
+
+.contact a {
+    color: #fdcb46;
+    text-decoration: none;
+}
+
+.mention
+
+{
+font-size: 15px;  
+color:  #fdcb46;
+padding-left: 30px;
+}
+
+.contact
+{
+font-size: 15px;  
+color: #fdcb46;
+padding-right: 30px;
+-webkit-animation:shake 1s ease-in-out .1s 
+infinite alternate
+animation: shake 1s ease-in-out .1s 
+infinite alternate
+}
+
+
+.contact :hover {
+    -webkit-animation:shake .1s ease-in-out .1s 
+    infinite alternate;
+}
+.mention
+:hover {
+    -webkit-animation:shake .1s ease-in-out .1s 
+    infinite alternate;
+}
+@-webkit-keyframes shake{
+
+    from {
+
+    -webkit-transform: rotate(5deg);
+    transform: rotate(5deg);
+}
+to {-webkit-tranform: rotate(-2deg);
+    transform: rotate(-2deg);
+    -webkit-transform-origin: center center;
+    -webkit-transform-origin: center center;
+
+}
+
+}
+
+@keyframes shake{
+
+    from {
+
+    -webkit-transform: rotate(7deg);
+}
+to {-webkit-tranform: rotate(-7deg);
+    -webkit-transform-origin: center center;
+
+}
+
+}
+
+
+@media all and (max-width: 770px)
+
+{
+
+.container
+
+{
+width: 100%;
+flex-direction: column;
+margin-bottom: 100px;
+position: absolute; 
+}
+
+.ligne{
+    flex-direction: column;
+}
+
+
+}
+
