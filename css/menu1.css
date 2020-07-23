@@ -75,7 +75,7 @@ background: linear-gradient(to left, #db8528, #333 50%, #8f5bfe 75%);
     color: #fdcb46;
     text-align: center;  
     font-size: 50px;
-    font-style: bold;
+    
 }
 
 h2
@@ -353,10 +353,8 @@ padding-left: 30px;
 font-size: 15px;  
 color: #fdcb46;
 padding-right: 30px;
--webkit-animation:shake 1s ease-in-out .1s 
-infinite alternate
-animation: shake 1s ease-in-out .1s 
-infinite alternate
+-webkit-animation:shake 1s linear .1s 5 alternate;
+animation: shake 1s linear .1s 5 alternate ;
 }
 
 

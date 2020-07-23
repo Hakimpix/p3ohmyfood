@@ -188,6 +188,13 @@ background-position: center;
     color: #3d1319;
 }
 
+.box2 p
+{
+    background: -webkit-linear-gradient(#db8528, #8f5bfe);
+    background: linear-gradient(to left, #db8528, #333 50%, #8f5bfe 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .box3 
 
 {
@@ -204,8 +211,8 @@ background-position: center;
     width: 300px;
     height: 400px;
     font-family: 'medioregular';
-    background: -webkit-linear-gradient(#65b44f, #ffffff);
-    background: linear-gradient(to right, #65b44f, #ffffff 90%);
+    background: -webkit-linear-gradient( green, #ffffff);
+    background: linear-gradient(to right, green, #ffffff 90%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
@@ -218,7 +225,6 @@ background-position: center;
 }
 .boite2 {
     background-color: #fff5fe;  
-    color: gradient(to right, #ce7d4e(56,56,56),#905bfd(0,0,0, .55)); 
     box-shadow: 1px 1px 15px  grey;
     font-family: "otama.epregular"; 
 }
@@ -408,9 +414,9 @@ font-size: 15px;
 color: #fdcb46;
 padding-right: 30px;
 -webkit-animation:shake 1s ease-in-out .1s 
-infinite alternate
-animation: shake 1s ease-in-out .1s 
-infinite alternate
+infinite alternate;
+animation: shake 1s ease-in-out .1s ;
+
 }
 
 

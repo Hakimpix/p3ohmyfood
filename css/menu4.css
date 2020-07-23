@@ -128,8 +128,8 @@ top: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: -webkit-linear-gradient(#65b44f, #ffffff);
-background: linear-gradient(to right, #65b44f, #ffffff 90%);
+    background: -webkit-linear-gradient(green, #ffffff);
+background: linear-gradient(to right, green, #ffffff 90%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
     
