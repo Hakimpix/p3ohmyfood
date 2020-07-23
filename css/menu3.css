@@ -377,10 +377,8 @@ text-decoration: none;
 font-size: 15px;  
 padding-right: 30px;
 color: #fdcb46;
--webkit-animation:shake 1s ease-in-out .1s 
-infinite alternate
-animation: shake 1s ease-in-out .1s 
-infinite alternate
+-webkit-animation:shake 1s linear .1s 5 alternate;
+animation: shake 1s linear .1s 5 alternate ;
 }
 
 
