@@ -42,7 +42,7 @@ body
 margin: 0;
 width: 100%;
 overflow-x: hidden;
-background-color: #fcdfdb;
+background-color: #fff5fe;
 }
 
     
@@ -149,20 +149,7 @@ height: unset;
   justify-content: center;
   padding: 2px 10px 2px 10px;
 }
-.menu-sous-titre h2:after, .menu-sous-titre h2:visited:after {
-    content: '';
-    height: 1px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0%;
-    background:black;
-    transition: 0.5s;
-  }
-  
-  .menu-sous-titre h2:hover:after, .menu-sous-titre h2:hover:visited:after {
-    width: 100%;
-  }
+
 
 .menu-sous-titre1 > h2 {
     Width: 220px;
@@ -205,7 +192,6 @@ h1 {
 .traitlateral1
 {
  height: 3px;
- background-color:#3d1319;
  flex: 1;
  justify-content: center;
  background-color: #c67412;
@@ -215,7 +201,6 @@ h1 {
 .traitlateral2
 {
  height: 3px;
- background-color:#3d1319;
  flex: 1;
  justify-content: center;
  background-color: #a56799;
@@ -224,7 +209,6 @@ h1 {
 .traitlateral3
 {
  height: 3px;
- background-color:#3d1319;
  flex: 1;
  justify-content: center;
  background-color:#6e4ccc;
@@ -280,6 +264,51 @@ font-size: 20px;
 padding-left: 5px;
 }
 
+
+.menu-sous-titre1 h2:after, .menu-sous-titre1 h2:visited:after {
+    content: '';
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    background:#c67412;
+    transition: 0.5s;
+  }
+  
+  .menu-sous-titre1 h2:hover:after, .menu-sous-titre1 h2:hover:visited:after {
+    width: 100%;
+  }
+
+  .menu-sous-titre2 h2:after, .menu-sous-titre2 h2:visited:after {
+    content: '';
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    background:#a56799;
+    transition: 0.5s;
+  }
+  
+  .menu-sous-titre2 h2:hover:after, .menu-sous-titre2 h2:hover:visited:after {
+    width: 100%;
+  }
+
+.menu-sous-titre3 h2:after, .menu-sous-titre3 h2:visited:after {
+    content: '';
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    background:#6e4ccc;
+    transition: 0.5s;
+  }
+  
+  .menu-sous-titre3 h2:hover:after, .menu-sous-titre3 h2:hover:visited:after {
+    width: 100%;
+  }
 
 footer
 {
@@ -366,13 +395,14 @@ to {-webkit-tranform: rotate(-7deg);
 
 {
 
-.container
+body
 
 {
 width: 100%;
 flex-direction: column;
 margin-bottom: 100px;
 position: absolute; 
+background-color: #fff5fe;
 }
 
 .ligne{

@@ -159,8 +159,8 @@ font-size: 50px;
 a
 {
     text-decoration: none;  
-    width: 350px;
-    height: 450px;
+    width: 300px;
+    height: 400px;
     padding: 0px;
     margin: 30px;
     
@@ -181,22 +181,46 @@ background-position: center;
 
 .box1 
 {
-    width: 350px;
-    height: 450px;
+    width: 300px;
+    height: 400px;
     padding: 0;
     margin: 0;
-    
+    color: #3d1319;
 }
 
+.box3 
+
+{
+    width: 300px;
+    height: 400px;
+    color: #0228dd;
+    font-family: 'medioregular';
+
+}
+
+.box4 
+
+{
+    width: 300px;
+    height: 400px;
+    font-family: 'medioregular';
+    background: -webkit-linear-gradient(#65b44f, #ffffff);
+    background: linear-gradient(to right, #65b44f, #ffffff 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
 .boite1
 {
     background-color: #fcdfdb;
     box-shadow: 1px 1px 15px  grey;
+    font-family: 'romanescoregular';
 }
 .boite2 {
     background-color: #fff5fe;  
     color: gradient(to right, #ce7d4e(56,56,56),#905bfd(0,0,0, .55)); 
     box-shadow: 1px 1px 15px  grey;
+    font-family: "otama.epregular"; 
 }
 .boite3 {
     background-color: #edefef;
@@ -207,6 +231,7 @@ background-position: center;
 
 {
     box-shadow: 1px 1px 15px  grey;
+    
 }
 .box1  
  {
@@ -235,8 +260,8 @@ background-position: center;
     
 }
 .box2:hover {
-	-webkit-transform: scale(1.2);
-    transform: scale(1.2);
+	-webkit-transform: scale(1.1);
+    transform: scale(1.1);
     opacity: 0.7;
 }
 
@@ -250,8 +275,8 @@ background-position: center;
     
 }
 .box3:hover {
-	-webkit-transform: scale(1.2);
-    transform: scale(1.2);
+	-webkit-transform: scale(1.1);
+    transform: scale(1.1);
     opacity: 0.7;
 }
 
@@ -264,22 +289,27 @@ background-position: center;
     
 }
 .box4:hover {
-	-webkit-transform: scale(1.2);
-    transform: scale(1.2);
+	-webkit-transform: scale(1.1);
+    transform: scale(1.1);
     opacity: 0.7;
 }
 
+p{
+    font-size: 30px;
+}
 .menu1 
 {
     font-family: 'action_manregular';
 }
+.menu_1  p
+{
+    font-family: 'romanescoregular';
+}
 .menu2
 {
+    font-size: 30px;
     font-family: "otama.epregular";    
-background: -webkit-linear-gradient(#db8528, #8f5bfe);
-background: linear-gradient(to left, #db8528, #333 50%, #8f5bfe 75%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+color: #db8528;
 }
 .menu_2 p
 {
@@ -293,9 +323,10 @@ background: linear-gradient(to left, #db8528, #333 50%, #8f5bfe 75%);
 {
     font-family: 'action_manregular';
 }
-.menu4 
+.menu4 p
 {
     font-family: 'action_manregular';
+    
 }
 
 .prochainement 
@@ -475,33 +506,63 @@ flex-direction: column;
 }
 .boite1
 {
-    width: 400px;
-    height: 500px;  
+    width: 300px;
+    height: 400px; 
 }
 
 .boite2
 {
-    width: 400px;
-    height: 500px; 
+    width: 300px;
+    height: 400px; 
 } 
 
 .boite3
 {
-    width: 400px;
-    height: 500px;  
+    width: 300px;
+    height: 400px;  
  
 }
 .boite4
 {
-    width: 400px;
-    height: 500px; 
+    width: 300px;
+    height: 400px; 
 }
 }
 
-@media all and (min-width: 900px)
+@media all and (min-width: 1000px)
 
 {
 
+    .box1 
+    {
+        width: 400px;
+        height: 500px;
+        align-items: center;
+        justify-content: center;
+        color: #3d1319;
+    }
+
+    .box2
+    {
+        width: 400px;
+        height: 500px;
+        align-items: center;
+        justify-content: center;
+    }
+    .box3
+    {
+        width: 400px;
+        height: 500px;
+        align-items: center;
+        justify-content: center;
+    }
+    .box4
+    {
+        width: 400px;
+        height: 500px;
+        align-items: center;
+        justify-content: center;
+    }
 .boite1
 {
     width: 400px;
@@ -525,4 +586,26 @@ flex-direction: column;
     width: 400px;
     height: 500px; 
 }
+
+a
+{
+    text-decoration: none;  
+    width: 400px;
+    height: 500px; 
+    padding: 0px;
+    margin: 30px;
+    text-align: center;
+    background-size: 130%;
+    background-position: center;
+    background-size: 100%;
+    transition: 1s;
+    cursor: zoom-in;
+}
+
+a:hover
+{
+background-size: 100%;
+background-position: center;
+}
+
 }
