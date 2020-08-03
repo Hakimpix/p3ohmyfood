@@ -407,7 +407,11 @@ font-size: 15px;
 color:  #fdcb46;
 padding-left: 30px;
 }
-
+.mention
+:hover {
+    -webkit-animation:shake .1s ease-in-out .1s 
+    infinite alternate;
+}
 .contact
 {
 font-size: 15px;  
@@ -418,16 +422,11 @@ animation: shake 1s linear .1s 5 alternate ;
 
 }
 
-
 .contact :hover {
     -webkit-animation:shake .1s ease-in-out .1s 
     infinite alternate;
 }
-.mention
-:hover {
-    -webkit-animation:shake .1s ease-in-out .1s 
-    infinite alternate;
-}
+
 
 .prochainement h3
 {
