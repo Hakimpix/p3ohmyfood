@@ -215,6 +215,7 @@ background-position: center;
     background: linear-gradient(to right, green, white 90%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    -webkit-transition: 2s;
 
 }
 .boite1
