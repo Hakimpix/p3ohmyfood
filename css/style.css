@@ -211,6 +211,7 @@ background-position: center;
     width: 300px;
     height: 400px;
     font-family: 'medioregular';
+    background-image: -moz-linear-gradient ( green, white);
     background: -webkit-linear-gradient( green, white);
     background: linear-gradient(to right, green, white 90%);
     -webkit-background-clip: text;
