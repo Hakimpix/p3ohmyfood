@@ -343,12 +343,13 @@ color: #db8528;
 font-size: 40px;
 display: flex;
 align-items: center;
+text-align: center;
 background-color: #579c87;
 border-radius: 10px / 10px;
 margin-bottom: 120px;
 color: #fdcb46;
-padding: 5px 30px 5px 30px;
-width: 250px;
+padding: 10px 10px 10px 10px;
+width: 270px;
 height: 50px;
 }
 
@@ -356,20 +357,28 @@ height: 50px;
         overflow: hidden;
         display: inline-block;
         vertical-align: bottom;
-        -webkit-animation: ellipsis steps(4,end) 900ms infinite;      
-        animation: ellipsis steps(4,end) 900ms infinite;
+        -webkit-animation: ellipsis  900ms infinite;      
+        animation: ellipsis  900ms infinite;
         content: "\2026"; /* ascii code for the ellipsis character */
         width: 0px;
         
 }
 
 @keyframes ellipsis {
-    to {
+    0%
+    {
+        width: 0px;
+    }
+    100% {
       width: 1.25em;    
     }
   }
 @-webkit-keyframes ellipsis {
-    to {
+    0%
+    {
+        width: 0px;
+    }
+    100% {
       width: 1.25em;    
     }
 }
@@ -426,8 +435,8 @@ animation: shake 1s linear .1s 5 alternate ;
 }
 
 .contact :hover {
-    -webkit-animation:shake .1s ease-in-out .1s 
-    infinite alternate;
+    -webkit-animation:shake .1s ease-in-out .1s infinite alternate;
+    animation:shake .1s ease-in-out .1s infinite alternate;
 }
 
 

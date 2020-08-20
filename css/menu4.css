@@ -112,12 +112,15 @@ top: 0;
 .menu
 
 {  
-    width: 100%;
-    padding-top: 100px;
-    margin-bottom: 100px;
-    flex-direction: column;
-    height: unset;
-    }   
+width: 80%;
+margin-left: 30px;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 100px;
+margin-bottom: 100px;
+flex-direction: column;
+height: unset;
+}   
 
 
 
