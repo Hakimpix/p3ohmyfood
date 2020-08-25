@@ -109,13 +109,13 @@ top: 0;
     padding-bottom: 30px;
 }
 
-.menu
+main
 
 {  
 width: 80%;
-margin-left: 30px;
-padding-left: 30px;
-padding-right: 30px;
+margin-left: 40px;
+padding-left: 40px;
+padding-right: 40px;
 padding-top: 100px;
 margin-bottom: 100px;
 flex-direction: column;
@@ -407,6 +407,17 @@ to {-webkit-tranform: rotate(-7deg);
     .ligne{
         flex-direction: column;
     }
+    main
 
+    {  
+    width: 80%;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+    flex-direction: column;
+    height: unset;
+    }   
 
 }

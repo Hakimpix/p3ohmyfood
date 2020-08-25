@@ -169,7 +169,7 @@ a
     background-position: center;
     background-size: 100%;
     transition: 1s;
-    cursor: zoom-in;
+    
 }
 
 
@@ -190,7 +190,7 @@ background-position: center;
 
 .box2 p
 {
-    background: -webkit-linear-gradient(#db8528, #8f5bfe);
+    background: -webkit-linear-gradient(top #db8528,#8f5bfe);
     background: linear-gradient(to left, #db8528, #333 50%, #8f5bfe 75%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -212,12 +212,12 @@ background-position: center;
     height: 400px;
     font-family: 'medioregular';
     
-    background-image: -moz-linear-gradient ( green, #edefef);
-    background: -webkit-linear-gradient( green, #edefef);
-    background: linear-gradient(to right, green, #edefef 90%);
+    background-image: -moz-linear-gradient(#66b44e,#e4e9ee);
+    background: -webkit-linear-gradient(#68b651,#edefef);
+    background: linear-gradient(to right,#68b651,#edefef 90%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    -webkit-mask-image: linear-gradient(90deg, green (42,63,76,1) 38%, #edefef (87,132,159,1) 100%);
+    
 
 }
 .boite1
@@ -242,6 +242,14 @@ background-position: center;
     box-shadow: 1px 1px 15px  grey;
     
 }
+
+
+.box
+
+{
+    padding-top: 100px;
+    box-sizing: border-box;
+}
 .box1  
  {
     
@@ -249,7 +257,7 @@ background-position: center;
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
-    margin-top: 100px;
+    
     
 }
 .box1:hover {
@@ -265,7 +273,7 @@ background-position: center;
 	-webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
     height: 200px;
-    margin-top: 100px;
+    
     
 }
 .box2:hover {
@@ -280,7 +288,7 @@ background-position: center;
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
-    margin-top: 100px;
+   
     
 }
 .box3:hover {
@@ -294,7 +302,7 @@ background-position: center;
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
-    margin-top: 100px;
+    
     
 }
 .box4:hover {
@@ -615,7 +623,7 @@ a
     background-position: center;
     background-size: 100%;
     transition: 1s;
-    cursor: zoom-in;
+    
 }
 
 a:hover
